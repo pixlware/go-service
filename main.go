@@ -1,15 +1,13 @@
 package main
 
 import (
-	"go-api-bp/api"
-	"go-api-bp/config"
+	"go-service/api"
+	"go-service/config"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
-
-const Version = "1.0.0"
 
 func main() {
 	app := fiber.New(fiber.Config{

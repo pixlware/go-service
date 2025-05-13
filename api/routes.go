@@ -1,7 +1,7 @@
 package api
 
 import (
-	"go-api-bp/api/resources/home"
+	"go-service/api/resources/home"
 
 	"github.com/gofiber/fiber/v2"
 )
